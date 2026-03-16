@@ -1,4 +1,4 @@
-from google import genai
+import google.genai as genai
 import asyncio
 import os
 
@@ -54,7 +54,7 @@ class GoogleModelsInterfacer:
     def getGeminiLatestModels(self)->list[str]:
         return [ m.name for m in self.googleModels if "gemini" in m.name.lower() and "latest" in m.name.lower()]
     
-    def getGeminiModalProperties(self, modelName:str) -> google.genai.Model:
+    def getGeminiModalProperties(self, modelName:str) -> genai.Model:
         if modelName not in self.getModelNames():
             raise ModuleNotFoundError("Model not found")
         else :

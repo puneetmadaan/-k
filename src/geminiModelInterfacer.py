@@ -54,7 +54,7 @@ class GoogleModelsInterfacer:
     def getGeminiLatestModels(self)->list[str]:
         return [ m.name for m in self.googleModels if "gemini" in m.name.lower() and "latest" in m.name.lower()]
     
-    def getGeminiModalProperties(self, modelName:str) -> genai.Model:
+    def getGeminiModalProperties(self, modelName:str) :
         if modelName not in self.getModelNames():
             raise ModuleNotFoundError("Model not found")
         else :

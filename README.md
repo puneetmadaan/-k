@@ -7,7 +7,7 @@ Project -kčā is a forensic audit and technical intervention developed for the 
 ##  📖 Essential Documentation
 
 The primary documentation, technical breakdown, and live audit results are contained within the interactive notebook: 
-👉 [Readme.ipynb](./src/readme.ipynb)
+👉 [src/Readme.ipynb](src/readme.ipynb)
 
 ## 🏛️ The Nuremberg Protocol (1950)
 This project is grounded in the Nuremberg Principles of 1950, the foundation of modern human-rights-centric democracy. We argue that "Functional Deafness"—where an AI executes tasks while ignoring biological and semantic markers of human crisis—is a form of digital expropriation of agency.
